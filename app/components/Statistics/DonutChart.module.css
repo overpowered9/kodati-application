@@ -1,0 +1,96 @@
+.container {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 5px;
+  top: 5px;
+  left: 5px;
+  border: 1px solid #e0e0e0;
+  max-width: 495px;
+  box-shadow: 2px 2px 2px 2px #e9ecee;
+  box-shadow: inset;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.ordertext {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.donut_parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.donut {
+  width: 200px;
+  height: 200px;
+}
+
+.Category_Head {
+  display: flex;
+  flex-direction: row;
+  font: poppins;
+  font-size: 13.09px;
+  font-weight: 500;
+  color: #737373;
+  justify-content: space-between;
+  width: 240px;
+  position: relative;
+  left: 20px;
+  border-bottom: 2px solid #404040;
+  padding-bottom: 10px;
+}
+
+.ul {
+  list-style: none;
+}
+
+.ul li {
+  display: flex;
+  flex-direction: row;
+  font: poppins;
+  font-size: 13.09px;
+  font-weight: 500;
+  color: #737373;
+  width: 260px;
+}
+
+.li_internal_div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: space-between;
+  width: 240px;
+}
+
+.li_internal_div p:first-child {
+  width: 85px;
+  padding: 0;
+}
+
+.ul li::before {
+  content: "•";
+  font-size: 32px;
+  position: relative;
+  bottom: 0px;
+  margin-right: 3px;
+  max-height: 20px;
+}
+
+.ul li:nth-child(1)::before {
+  color: rgb(53, 101, 237);
+}
+
+.ul li:nth-child(2)::before {
+  color: red;
+}
+
+.ul li:nth-child(3)::before {
+  color: rgb(255, 199, 64);
+}
+
+.ul li:nth-child(4)::before {
+  color: rgb(0, 201, 8);
+}

@@ -1,0 +1,139 @@
+.Parent {
+  background-color: #fff;
+  height: 600px;
+  overflow: hidden;
+  width: 247px;
+  border-right: 1px solid #d6d6d6;
+  border-radius: 1%;
+  margin-top: -4px;
+
+}
+
+.list {
+  border-top: 1px solid #d6d6d6;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 30px;
+  width: 247px;
+  padding-left: 35px;
+}
+
+.active {
+  background-color: #3667ee;
+  color: #fff;
+  border-radius: 4px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 183px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboardbuttons {
+  border-radius: 4px;
+  color: #5f5f5f;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 183px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboardbuttons {
+  border-radius: 4px;
+  color: #5f5f5f;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 183px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dashboardbuttons:hover {
+  background-color: #d0d0d0;
+  color: #2d3748;
+}
+
+.image {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
+.buttontext {
+  width: 84px;
+  text-align: left;
+}
+
+.logoutbutton {
+  display: flex;
+  padding: 13px 0px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  color: #5f5f5f;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100%;
+  background-color: #fff;
+  justify-content: center;
+  border-top: 1px solid #d1d1d1;
+}
+
+.logout_buttontext {
+  color: #7c7c7c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hideSidebar {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: left 0.3s ease-out;
+}
+
+.openSidebar {
+  left: 0;
+  position: fixed;
+  z-index: 3;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #fff;
+  transition: left 0.35s ease-in;
+  backdrop-filter: blur(200px);
+}

@@ -1,0 +1,162 @@
+.subparentsett {
+  width: 82vw;
+  position: absolute;
+  top: 73px;
+  left: 246px;
+}
+
+.news {
+  max-width: 82vw;
+}
+
+.settings_heading {
+  font-size: 32px;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.settings_menu {
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  width: 75vw;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.settings_nonactive {
+  color: #717b8c;
+  font-size: 16px;
+  font-weight: 200;
+  cursor: pointer;
+  border-bottom: 2px solid #717b8c;
+  padding-bottom: 5px;
+}
+
+.settings_active {
+  color: #5b83f1;
+  font-size: 16px;
+  font-weight: 200;
+  cursor: pointer;
+  border-bottom: 2px solid #5b83f1;
+  padding-bottom: 5px;
+}
+
+.InputsParent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.InputsParent .normalinput input {
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  height: 44px;
+  width: 464px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.updatebutton {
+  background-color: #3667ee;
+  color: white;
+  height: 39px;
+  width: 94px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 64vw;
+}
+
+.longinput input {
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  height: 44px;
+  width: 70vw;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.Accountactivecontent .normalinput {
+  margin-top: 20px;
+}
+
+.Accountactivecontent .InputsParent {
+  margin-top: 0px;
+}
+
+.Accountactivecontent .InputsParent .normalinput input {
+  height: 40px;
+}
+
+.longinput {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1100px) {
+  .settings_menu {
+    width: 50vw;
+    overflow: hidden;
+  }
+
+  .longinput input {
+    width: 45vw;
+  }
+
+  .InputsParent .normalinput input {
+    width: 45vw;
+  }
+
+  .updatebutton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .subparentsett {
+    width: 100vw;
+    position: absolute;
+    top: 73px;
+    left: 0px;
+  }
+
+  .settings_menu {
+    width: 100vw;
+  }
+
+  .longinput input {
+    width: 80vw;
+  }
+
+  .InputsParent .normalinput input {
+    width: 80vw;
+  }
+
+  .updatebutton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .longinput input {
+    width: 600px;
+  }
+
+  .normalinput {
+    position: relative;
+    top: 15px;
+  }
+}

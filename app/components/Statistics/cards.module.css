@@ -1,0 +1,52 @@
+.card {
+  width: 284px;
+  height: 114px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.cards_parent {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card:nth-child(1) {
+  background-image: linear-gradient(to right, #6baafc, #305fec);
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.card p {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.card:nth-child(2) {
+  background-image: linear-gradient(to right, #ef5e7a, #d35385);
+}
+
+.card:nth-child(3) {
+  background-image: linear-gradient(to right, #d623fe, #a530f2);
+}
+
+.card:nth-child(4) {
+  background-image: linear-gradient(to right, #f87e5e, #ff6036);
+}
+
+.image {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -20px;
+}
